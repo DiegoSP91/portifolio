@@ -1,0 +1,44 @@
+/* css reset */
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    display :flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: irem;
+    height: 100vh;
+    background-image: url(./assets/imagens/nasa-Q1p7bh3SHj8-unsplash\ \(1\).jpg);
+    background-size: cover;
+    padding-top: 12.5rem;
+    padding-left: 7rem;
+}
+
+h1 {
+  
+ font-size: 50px;   
+ font-weight:900 ;  
+ color:rgb(255, 255, 255);
+font-family: 'Poppins';
+
+}
+
+span{
+    font-size: 50px;
+    font-weight: 900;
+    color:rgb(255, 255, 255);
+}
+a{
+    color: #fff;
+    font-size: 1.9rem;
+    text-decoration: none;
+    background: linear-gradient(90deg,#c31432,#240b36  );
+    padding: 1rem 2rem;
+    border-radius: 7px;
+
+}
